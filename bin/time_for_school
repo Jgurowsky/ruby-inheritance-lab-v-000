@@ -34,5 +34,5 @@ even_more_knowledge = avi.teach
 jon.learn(even_more_knowledge)
 
 [steve, jon].each do |name|
-  puts "#{name.first_name} just learned this important knowledge: '#{name.knowledge}' from Avi"
+  puts "#{name.first_name} just learned this important knowledge: '#{name.knowledge.join(", ")}' from Avi"
 end
