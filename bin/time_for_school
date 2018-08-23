@@ -26,3 +26,7 @@ jim.last_name = "Bob"
 
 more_knowledge = avi.teach
 steve.learn(more_knowledge)
+
+jon = Student.new
+jon.first_name = "Jonathan"
+jon.last_name = "Gurowsky"
