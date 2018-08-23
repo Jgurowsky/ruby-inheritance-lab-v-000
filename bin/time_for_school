@@ -30,3 +30,5 @@ steve.learn(more_knowledge)
 jon = Student.new
 jon.first_name = "Jonathan"
 jon.last_name = "Gurowsky"
+even_more_knowledge = avi.teach
+jon.learn(even_more_knowledge)
