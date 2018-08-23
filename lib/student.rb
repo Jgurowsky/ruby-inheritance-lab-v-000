@@ -1,6 +1,5 @@
-require_relative "./user.rb"
+require_relative './user.rb'
 
-require 'pry'
 
 class Student < User
 
@@ -15,5 +14,4 @@ class Student < User
   def knowledge
     @knowledge
   end
-  binding.pry
 end
