@@ -33,4 +33,5 @@ jon.last_name = "Gurowsky"
 even_more_knowledge = avi.teach
 jon.learn(even_more_knowledge)
 
-[jon, steve]
+[jon, steve].each do |name|
+  puts "#{name} just learned this important knowledge: '#{name.knowledge.first}' from Avi"
