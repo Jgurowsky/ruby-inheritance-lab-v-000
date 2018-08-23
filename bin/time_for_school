@@ -35,3 +35,4 @@ jon.learn(even_more_knowledge)
 
 [jon, steve].each do |name|
   puts "#{name} just learned this important knowledge: '#{name.knowledge.first}' from Avi"
+end
